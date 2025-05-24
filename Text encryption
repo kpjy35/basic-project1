@@ -1,0 +1,54 @@
+Task 1: Text Encryption Using Cryptographic Algorithms
+This is a simple web-based application that allows users to encrypt and decrypt textual information using cryptographic algorithms. The goal of the project is to demonstrate the principles of strong encryption, where even identical inputs produce different encrypted outputs through the use of random initialization vectors (IVs).
+
+🚀 Features
+🔒 AES Encryption – Secures text using Advanced Encryption Standard (AES)
+
+🔁 Encrypt & Decrypt – Easily convert between plain and encrypted text
+
+🔁 Random IV Generation – Ensures unique ciphertexts for the same input
+
+🌐 Client-side Application – Built with HTML, CSS, and JavaScript using CryptoJS
+
+🧪 Demonstrates Cryptography Concepts – Secure key usage, IV management, and reversible encryption
+
+🛠️ Tech Stack
+HTML5 / CSS3
+
+JavaScript (ES6)
+
+CryptoJS – For AES encryption and decryption
+
+📦 How to Use
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/text-encryption-app.git
+cd text-encryption-app
+Open index.html in your web browser.
+
+Type your message into the input field, then click Encrypt.
+
+To revert the encrypted message, click Decrypt.
+
+📌 Important Notes
+For demonstration purposes, the encryption key and IV are handled in-browser.
+
+Do not use this application for storing or transmitting sensitive information.
+
+For real-world applications, implement secure key management and server-side encryption.
+
+🧩 Future Improvements
+Password-based key derivation (PBKDF2)
+
+Backend support with Flask or Node.js
+
+File encryption support
+
+AES-GCM for authenticated encryption
+
+📄 License
+This project is licensed under the MIT License.
+
